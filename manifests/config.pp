@@ -4,5 +4,5 @@ class postgresql::config {
   $executable = "${boxen::config::home}/homebrew/bin/postgres"
   $datadir    = "${boxen::config::datadir}/postgresql"
   $logdir     = "${boxen::config::logdir}/postgresql"
-  $port       = 15432
+  $port       = 5432
 }
